@@ -43,7 +43,10 @@ function Faq({
 
           <div className="all-questions">
             {content.map((item, index) => (
-              <div className="faq-box w-[300px] md:w-[500px] lg:w-[800px] ">
+              <div
+                key={index}
+                className="faq-box w-[300px] md:w-[500px] lg:w-[800px] "
+              >
                 <div
                   id={`q${index + 1}`}
                   onClick={() => openQ(`q${index + 1}`)}
