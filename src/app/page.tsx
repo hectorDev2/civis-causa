@@ -1,8 +1,4 @@
-import Faq from "./components/Faq";
-import Footer from "./components/Footer";
 import Content from "./components/Content";
-import { faqContent1, faqContent2 } from "./resources/data";
-import Image from "next/image";
 import { BannerPlanet } from "./components/BannerPlanet";
 
 export default async function Home() {

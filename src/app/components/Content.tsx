@@ -242,6 +242,41 @@ const Content = () => {
           </div>
         </div>
       </div>
+
+      <div className=" py-[100px] bg-[#303030]">
+        <div className="flex py-6 flex-wrap gap-8  justify-center  items-center">
+          <div className="relative w-100">
+            <Image
+              src={image5}
+              width={500}
+              alt="variedad de personas civis causa"
+              height={500}
+            />
+
+            <div className="absolute top-0 left-0 right-0 bottom-0 w-[70%] m-[auto]  h-[40%] bg-[rgba(33,33,33,0.83);] flex items-center text-center">
+              <h3 className="text-title text-[55px] leading-[50px]  text-center m-auto">
+                INCORPORATE A LA ACCION
+              </h3>
+            </div>
+          </div>
+          <div className="text-[19px] font-light sm:w-[320px] pr-8 md:w-[50%]">
+            <h3 className="font-semibold   ">
+              Para lograr estos resultados, hemos creado un programa con
+              estándares que garanticen procesos transparentes que permitan la
+              consecución de los objetivos planteados para el empoderamiento
+              ciudadano.
+            </h3>
+            <button className="bg-white  font-bold text-title  text-[20px] p-4 rounded-[63px]  my-5    text-zinc-900">
+              <strong>CONVIERTETE EN VOLUNTARIADO</strong>
+            </button>
+            <p>
+              Únete, participa y contribuye con nuestro proyecto, tu aporte es
+              importante de cualquier forma que creas o puedas. Tu participación
+              logrará cambios significativos en la sociedad.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
