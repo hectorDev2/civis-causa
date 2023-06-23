@@ -1,8 +1,7 @@
 import "./globals.css";
 export const metadata = {
-  title: "Portfolio Hector",
-  description:
-    "Hector Barazorda, desarrollador de software con más de 2 años de experiencia en el diseño y desarrollo de aplicaciones web y móviles. Aquí puedes encontrar mis proyectos más destacados y ponerse en contacto conmigo",
+  title: "Civis causa",
+  description: "Ong Civis Causa",
 };
 
 export default function RootLayout({
