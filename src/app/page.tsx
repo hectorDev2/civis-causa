@@ -18,7 +18,7 @@ export default async function Home() {
               El primer paso Un plan para democratizar la Justicia
             </h1>
             <strong>
-              <span className="text-xs  text-cyan-400">
+              <span className="text-title text-xs  text-cyan-400">
                 Creemos en el valor y la libertad de las personas como figura
                 central en la vida democrática de una sociedad para que ésta sea
                 transformada.
@@ -39,9 +39,9 @@ export default async function Home() {
         </div>
         <Content />
         <BannerPlanet />
-        <Faq content={faqContent1} title="haz que suceda!" />
+        {/* <Faq content={faqContent1} title="haz que suceda!" />
         <Faq content={faqContent2} title="cualquier aporte es valioso" />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );
