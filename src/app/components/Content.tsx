@@ -11,7 +11,7 @@ const Content = () => {
   return (
     <>
       <div className=" content ">
-        <div className="flex py-6 flex-wrap gap-2 flex-row-reverse justify-center items-center">
+        <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
           <div className="relative">
             <Image
               src={image1}
@@ -38,7 +38,7 @@ const Content = () => {
             de los medios de comunicación.
           </div>
         </div>
-        <div className="flex py-6 flex-wrap gap-2 justify-center items-center">
+        <div className="flex py-6 flex-wrap gap-8 justify-center items-center">
           <div className="relative">
             <Image
               alt="fuerza civis causa"
@@ -66,7 +66,7 @@ const Content = () => {
             </button>
           </div>
         </div>
-        {/* <div className="flex py-6 flex-wrap gap-2 flex-row-reverse justify-center items-center">
+        {/* <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
         <div className="relative">
           <Image
             src={image3}
@@ -87,7 +87,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="flex py-6 flex-wrap gap-2 justify-center items-center">
+      <div className="flex py-6 flex-wrap gap-8 justify-center items-center">
         <div className="relative">
           <Image
             alt="dama de la justicia,civis causa"
@@ -111,7 +111,7 @@ const Content = () => {
         </div>
       </div> */}
 
-        {/* <div className="flex py-6 flex-wrap flex-row-reverse gap-2 justify-center items-center">
+        {/* <div className="flex py-6 flex-wrap flex-row-reverse gap-8 justify-center items-center">
         <div className="relative">
           <Image
             alt="dama de la justicia,civis causa"
@@ -141,7 +141,7 @@ const Content = () => {
       </div> */}
       </div>
       <div className="content-2 py-[200px] bg-[#2b2b2b]">
-        <div className="flex py-6 flex-wrap gap-2 flex-row-reverse justify-center ">
+        <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center ">
           <div className="relative w-100">
             <Image
               src={image3}
@@ -181,7 +181,7 @@ const Content = () => {
       </div>
       <div className="content-3 grid place-items-center py-5">
         <div className=" flex flex-wrap justify-center gap-[40px]  pt-[100px] text-black">
-          <div className="flex m:w-[320px] md:w-[500px] py-6 flex-wrap gap-2 flex-row-reverse ">
+          <div className="flex m:w-[320px] md:w-[500px] py-6 flex-wrap gap-8 flex-row-reverse ">
             <h3 className="text-[19px] bg-white p-10">
               Promovemos un sistema jurídico eficiente, efectivo, enmarcado
               dentro de la democratización de la justicia, que garantice un
