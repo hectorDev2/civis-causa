@@ -10,12 +10,40 @@ import image5 from "../../../public/images/AdobeStock_381903512.jpeg";
 const Content = () => {
   return (
     <>
-      <div className=" content ">
-        <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
+      <div className=" content  px-[54px]">
+        <div className="flex px-6 flex-wrap gap-8 justify-center items-center">
+          <div className="relative">
+            <Image
+              alt="fuerza civis causa"
+              src={image2}
+              width={467}
+              height={500}
+            />
+            <div className="absolute top-0 left-0 right-0 bottom-0 w-[70%] m-[auto]  h-[60%] bg-[rgba(27,163,59,0.5);] flex items-center text-center">
+              <h3 className="text-title text-[30px] m-auto">
+                ¡Por un sistema de justicia que funcione!
+              </h3>
+            </div>
+          </div>
+          <div className="text-[19px] font-light sm:w-[320px] md:w-[435px]">
+            <span className="font-bold text-[#00a326]">
+              En nuestro movimiento
+            </span>{" "}
+            proponemos democratizar el sistema de justicia, conectándose con las
+            necesidades de los ciudadanos, como instrumento al servicio de
+            todos, creando las condiciones que aseguren el cambio, donde cada
+            quien pueda producir, crear, vivir en plenitud, sin tantas trabas ni
+            limitaciones en el devenir de sus vidas. <br />
+            <button className="bg-white text-black font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
+              <strong>HAGAMOS EL CAMBIO JUNTOS</strong>
+            </button>
+          </div>
+        </div>
+        <div className="flex px-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
           <div className="relative">
             <Image
               src={image1}
-              width={500}
+              width={467}
               height={500}
               alt={"justicia civis causa"}
             />
@@ -26,7 +54,7 @@ const Content = () => {
               </h3>
             </div>
           </div>
-          <div className="text-[19px] font-light sm:w-[320px] md:w-[500px]">
+          <div className="text-[19px] font-light sm:w-[320px] md:w-[435px]">
             Consideramos a la justicia como unos de los{" "}
             <span className="font-bold text-[#00a326]">
               pilares del orden social determinante
@@ -38,39 +66,12 @@ const Content = () => {
             de los medios de comunicación.
           </div>
         </div>
-        <div className="flex py-6 flex-wrap gap-8 justify-center items-center">
-          <div className="relative">
-            <Image
-              alt="fuerza civis causa"
-              src={image2}
-              width={500}
-              height={500}
-            />
-            <div className="absolute top-0 left-0 right-0 bottom-0 w-[70%] m-[auto]  h-[60%] bg-[rgba(27,163,59,0.5);] flex items-center text-center">
-              <h3 className="text-title text-[30px] m-auto">
-                ¡Por un sistema de justicia que funcione!
-              </h3>
-            </div>
-          </div>
-          <div className="text-[19px] font-light sm:w-[320px] md:w-[500px]">
-            <span className="font-bold text-[#00a326]">
-              En nuestro movimiento
-            </span>{" "}
-            proponemos democratizar el sistema de justicia, conectándose con las
-            necesidades de los ciudadanos, como instrumento al servicio de
-            todos, creando las condiciones que aseguren el cambio, donde cada
-            quien pueda producir, crear, vivir en plenitud, sin tantas trabas ni
-            limitaciones en el devenir de sus vidas.
-            <button className="bg-white font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
-              <strong>HAGAMOS EL CAMBIO JUNTOS</strong>
-            </button>
-          </div>
-        </div>
-        {/* <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
+
+        {/* <div className="flex px-6 flex-wrap gap-8 flex-row-reverse justify-center items-center">
         <div className="relative">
           <Image
             src={image3}
-            width={500}
+            width={467}
             alt="variedad de personas civis causa"
             height={500}
           />
@@ -87,12 +88,12 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="flex py-6 flex-wrap gap-8 justify-center items-center">
+      <div className="flex px-6 flex-wrap gap-8 justify-center items-center">
         <div className="relative">
           <Image
             alt="dama de la justicia,civis causa"
             src={image4}
-            width={500}
+            width={467}
             height={500}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 w-[70%] m-[auto]  h-[60%] bg-[rgba(27,163,59,0.5);] flex items-center text-center">
@@ -111,12 +112,12 @@ const Content = () => {
         </div>
       </div> */}
 
-        {/* <div className="flex py-6 flex-wrap flex-row-reverse gap-8 justify-center items-center">
+        {/* <div className="flex px-6 flex-wrap flex-row-reverse gap-8 justify-center items-center">
         <div className="relative">
           <Image
             alt="dama de la justicia,civis causa"
             src={image5}
-            width={500}
+            width={467}
             height={500}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 w-[70%] m-[auto]  h-[60%] bg-[rgba(27,163,59,0.5);] flex items-center text-center">
@@ -134,18 +135,18 @@ const Content = () => {
           despliegue de campañas efectivas, con la finalidad de obtener
           resultados palpables, medibles a la altura de los objetivos
           planteados.
-          <button className="bg-white font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
+          <button className="bg-white text-black font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
             <strong>HAGAMOS EL CAMBIO JUNTOS</strong>
           </button>
         </div>
       </div> */}
       </div>
       <div className="content-2 py-[200px] bg-[#2b2b2b]">
-        <div className="flex py-6 flex-wrap gap-8 flex-row-reverse justify-center ">
+        <div className="flex px-6 flex-wrap gap-8 flex-row-reverse justify-center ">
           <div className="relative w-100">
             <Image
               src={image3}
-              width={500}
+              width={467}
               alt="variedad de personas civis causa"
               height={500}
             />
@@ -173,7 +174,7 @@ const Content = () => {
               beneficio de las naciones donde implementemos el programa de
               democratización de Civís Causa.
             </p>
-            <button className="bg-white font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
+            <button className="bg-white text-black font-bold text-title  p-4 rounded-[63px]  my-3    text-zinc-900">
               <strong>HAGAMOS EL CAMBIO JUNTOS</strong>
             </button>
           </div>
@@ -181,7 +182,7 @@ const Content = () => {
       </div>
       <div className="content-3 grid place-items-center py-5">
         <div className=" flex flex-wrap justify-center gap-[40px]  pt-[100px] text-black">
-          <div className="flex m:w-[320px] md:w-[500px] py-6 flex-wrap gap-8 flex-row-reverse ">
+          <div className="flex m:w-[320px] md:w-[500px] px-6 flex-wrap gap-8 flex-row-reverse ">
             <h3 className="text-[19px] bg-white p-10">
               Promovemos un sistema jurídico eficiente, efectivo, enmarcado
               dentro de la democratización de la justicia, que garantice un
@@ -206,13 +207,13 @@ const Content = () => {
             </h3>
           </div>
         </div>
-        <button className="bg-white font-bold text-title m-[auto]  p-4 rounded-[63px]  my-3    text-zinc-900">
+        <button className="bg-white text-black font-bold text-title m-[auto]  p-4 rounded-[63px]  my-3    text-zinc-900">
           <strong>HAGAMOS EL CAMBIO JUNTOS</strong>
         </button>
       </div>
 
       <div className=" py-[100px] bg-[#2b2b2b]">
-        <div className="flex py-6 flex-wrap gap-8  justify-center  items-center">
+        <div className="flex px-6 flex-wrap gap-8  justify-center  items-center">
           <div className="relative w-100 md:w-[45%] m-auto">
             <Image
               src={image4}
@@ -236,7 +237,7 @@ const Content = () => {
               beneficio de las naciones donde implementemos el programa de
               democratización de Civís Causa.
             </p>
-            <button className="bg-white  font-bold text-title  text-[20px] p-4 rounded-[63px]  my-3    text-zinc-900">
+            <button className="bg-white text-black  font-bold text-title  text-[20px] p-4 rounded-[63px]  my-3    text-zinc-900">
               <strong>CONVIERTETE EN VOLUNTARIADO</strong>
             </button>
           </div>
@@ -244,11 +245,11 @@ const Content = () => {
       </div>
 
       <div className=" py-[100px] bg-[#303030]">
-        <div className="flex py-6 flex-wrap gap-8  justify-center  items-center">
+        <div className="flex px-6 flex-wrap gap-8  justify-center  items-center">
           <div className="relative w-100">
             <Image
               src={image5}
-              width={500}
+              width={467}
               alt="variedad de personas civis causa"
               height={500}
             />
@@ -266,7 +267,7 @@ const Content = () => {
               consecución de los objetivos planteados para el empoderamiento
               ciudadano.
             </h3>
-            <button className="bg-white  font-bold text-title  text-[20px] p-4 rounded-[63px]  my-5    text-zinc-900">
+            <button className="bg-white   font-bold text-title  text-[20px] p-4 rounded-[63px]  my-5   text-black  ">
               <strong>CONVIERTETE EN VOLUNTARIADO</strong>
             </button>
             <p>

@@ -1,3 +1,5 @@
+import Script from "next/script";
+import Navbar from "./components/Navbar";
 import "./globals.css";
 export const metadata = {
   title: "Civis causa",
@@ -11,6 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Navbar />
       <body>{children}</body>
     </html>
   );
